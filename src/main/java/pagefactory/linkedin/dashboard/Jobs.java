@@ -9,22 +9,22 @@ public class Jobs {
         Metalloid.initializePage(this);
     }
 
-    @FindBy(id = "jobs-search-box-keyword-id-ember7343")
-    private WebElement searchFiled;
+    @FindBy(css = "input[aria-label='Search by title, skill, or company']")
+    private WebElement search;
 
-    @FindBy(id = "jobs-search-box-location-id-ember7343")
+    @FindBy(css = "input[aria-label='City, state, or zip code']")
     private WebElement location;
 
     @FindBy(css = "button[type='submit']")
     private WebElement submit;
 
     public Jobs search(String statement) {
-        searchFiled.click();
+        search.sendKeys(statement);
         return this;
     }
 
-    public Jobs location() {
-        location.click();
+    public Jobs location(String city) {
+        location.sendKeys(city);
         return this;
     }
 
