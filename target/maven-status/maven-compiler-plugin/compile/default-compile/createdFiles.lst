@@ -10,11 +10,13 @@ reports/Standard.class
 selenium/Runner.class
 metalloid/controls/CookieHandler.class
 metalloid/controls/Select.class
+pagefactory/linkedin/dashboard/Tester.class
 selenium/Rules$1.class
 selenium/Core.class
 reports/Report.class
 pagefactory/linkedin/actions/Actions.class
 pagefactory/linkedin/dashboard/Dashboard.class
+pagefactory/linkedin/dashboard/Past24Hours.class
 reports/ReporterConfig.class
 selenium/Rules.class
 metalloid/controls/Captcha.class

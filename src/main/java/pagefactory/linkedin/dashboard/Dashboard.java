@@ -2,6 +2,8 @@ package pagefactory.linkedin.dashboard;
 
 import com.github.metalloid.core.Metalloid;
 import com.github.metalloid.pagefactory.FindBy;
+import com.github.metalloid.webdriver.utils.Inject;
+import com.github.metalloid.webdriver.utils.Wait;
 import org.openqa.selenium.WebElement;
 
 public class Dashboard {

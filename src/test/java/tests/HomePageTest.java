@@ -6,19 +6,28 @@ import org.junit.experimental.categories.Category;
 import pagefactory.linkedin.actions.Actions;
 
 public class HomePageTest extends Actions {
-    //@Test
+    @Test
     @Category(Dev.class)
     public void LinkedLogin_01() {
         createTest("LinkedLogin_01", "Home Page - logged successfully");
-        Actions.mainPage().openUrl().signIn().loginAsUser();
+        Actions
+                .mainPage()
+                .openUrl()
+                .signIn()
+                .loginAsUser()
+                .jobs()
+                .selectAlert("tester")
+                .datePostedTwentyFourHours()
+                .datePostedApply()
+                .results("");
        // assertEquals(message, "Email and Password do not match!");
     }
 
-    @Test
+    //Test
     @Category(Dev.class)
     public void LinkedLogin_02() {
         createTest("LinkedLogin_02", "Home Page - logged successfully");
-        Actions.mainPage().openUrl().signIn().loginAsUser().jobs().search("tester").location("Warszawa").submit();
+        Actions.mainPage().openUrl().signIn().loginAsUser().jobs().search("tester").location("Warszawa").submit().selectAlert("tester");
         // assertEquals(message, "Email and Password do not match!");
     }
 

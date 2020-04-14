@@ -243,3 +243,213 @@
 2020-04-06T20:44:22 INFO Close Selenium session
 2020-04-06T20:44:22 INFO test succeeded
 2020-04-06T20:44:23 INFO Close report
+2020-04-08T10:19:27 INFO Open report
+2020-04-08T10:19:29 INFO Open Selenium session
+2020-04-08T10:19:49 INFO Close Selenium session
+2020-04-08T10:19:49 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_02 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_02_10:19:49.png
+2020-04-08T10:19:49 INFO Get screenshotDescription_LinkedLogin_02_10:19:49.png
+2020-04-08T10:19:49 INFO test failed
+2020-04-08T10:19:50 INFO Close report
+2020-04-08T10:21:41 INFO Open report
+2020-04-08T10:21:43 INFO Open Selenium session
+2020-04-08T10:22:01 INFO Close Selenium session
+2020-04-08T10:22:02 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_02 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_02_10:22:1.png
+2020-04-08T10:22:02 INFO Get screenshotDescription_LinkedLogin_02_10:22:1.png
+2020-04-08T10:22:02 INFO test failed
+2020-04-08T10:22:03 INFO Close report
+2020-04-08T10:23:15 INFO Open report
+2020-04-08T10:23:17 INFO Open Selenium session
+2020-04-08T10:23:36 INFO Close Selenium session
+2020-04-08T10:23:37 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_02 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_02_10:23:36.png
+2020-04-08T10:23:37 INFO Get screenshotDescription_LinkedLogin_02_10:23:36.png
+2020-04-08T10:23:37 INFO test failed
+2020-04-08T10:23:38 INFO Close report
+2020-04-08T10:44:03 INFO Open report
+2020-04-08T10:44:05 INFO Open Selenium session
+2020-04-08T10:44:18 INFO Close Selenium session
+2020-04-08T10:44:21 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_10:44:18.png
+2020-04-08T10:44:21 INFO Get screenshotDescription_LinkedLogin_01_10:44:18.png
+2020-04-08T10:44:21 INFO test failed
+2020-04-08T10:44:22 INFO Close report
+2020-04-08T13:11:20 INFO Open report
+2020-04-08T13:11:33 INFO Open Selenium session
+2020-04-08T13:11:46 INFO Close Selenium session
+2020-04-08T13:11:48 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_13:11:46.png
+2020-04-08T13:11:48 INFO Get screenshotDescription_LinkedLogin_01_13:11:46.png
+2020-04-08T13:11:48 INFO test failed
+2020-04-08T13:11:50 INFO Close report
+2020-04-08T13:20:47 INFO Open report
+2020-04-08T13:20:50 INFO Open Selenium session
+2020-04-08T13:21:07 INFO Close Selenium session
+2020-04-08T13:21:07 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_13:21:7.png
+2020-04-08T13:21:07 INFO Get screenshotDescription_LinkedLogin_01_13:21:7.png
+2020-04-08T13:21:07 INFO test failed
+2020-04-08T13:21:08 INFO Close report
+2020-04-08T13:24:28 INFO Open report
+2020-04-08T13:24:31 INFO Open Selenium session
+2020-04-08T13:24:52 INFO Close Selenium session
+2020-04-08T13:24:52 INFO test succeeded
+2020-04-08T13:24:53 INFO Close report
+2020-04-08T13:26:33 INFO Open report
+2020-04-08T13:26:48 INFO Open Selenium session
+2020-04-08T13:27:26 INFO Close Selenium session
+2020-04-08T13:27:26 INFO test succeeded
+2020-04-08T13:27:27 INFO Close report
+2020-04-08T13:28:15 INFO Open report
+2020-04-08T13:28:18 INFO Open Selenium session
+2020-04-08T13:28:33 INFO Close Selenium session
+2020-04-08T13:28:35 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_13:28:33.png
+2020-04-08T13:28:35 INFO Get screenshotDescription_LinkedLogin_01_13:28:33.png
+2020-04-08T13:28:35 INFO test failed
+2020-04-08T13:28:37 INFO Close report
+2020-04-08T13:31:01 INFO Open report
+2020-04-08T13:31:04 INFO Open Selenium session
+2020-04-08T13:31:32 INFO Close Selenium session
+2020-04-08T13:31:32 INFO test succeeded
+2020-04-08T13:31:35 INFO Close report
+2020-04-14T10:31:03 INFO Open report
+2020-04-14T10:31:20 INFO Open Selenium session
+2020-04-14T10:31:38 INFO Close Selenium session
+2020-04-14T10:31:42 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_10:31:38.png
+2020-04-14T10:31:42 INFO Get screenshotDescription_LinkedLogin_01_10:31:38.png
+2020-04-14T10:31:42 INFO test failed
+2020-04-14T10:31:43 INFO Close report
+2020-04-14T10:34:37 INFO Open report
+2020-04-14T10:34:47 INFO Open Selenium session
+2020-04-14T10:35:12 INFO Close Selenium session
+2020-04-14T10:35:13 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_10:35:12.png
+2020-04-14T10:35:13 INFO Get screenshotDescription_LinkedLogin_01_10:35:12.png
+2020-04-14T10:35:13 INFO test failed
+2020-04-14T10:35:14 INFO Close report
+2020-04-14T10:40:37 INFO Open report
+2020-04-14T10:40:46 INFO Open Selenium session
+2020-04-14T10:41:08 INFO Close Selenium session
+2020-04-14T10:41:08 INFO test succeeded
+2020-04-14T10:41:09 INFO Close report
+2020-04-14T10:52:57 INFO Open report
+2020-04-14T10:52:59 INFO Open Selenium session
+2020-04-14T10:53:17 INFO Close Selenium session
+2020-04-14T10:53:18 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_10:53:17.png
+2020-04-14T10:53:18 INFO Get screenshotDescription_LinkedLogin_01_10:53:17.png
+2020-04-14T10:53:18 INFO test failed
+2020-04-14T10:53:19 INFO Close report
+2020-04-14T10:54:33 INFO Open report
+2020-04-14T10:54:35 INFO Open Selenium session
+2020-04-14T10:54:50 INFO Close Selenium session
+2020-04-14T10:54:51 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_10:54:50.png
+2020-04-14T10:54:51 INFO Get screenshotDescription_LinkedLogin_01_10:54:50.png
+2020-04-14T10:54:51 INFO test failed
+2020-04-14T10:54:52 INFO Close report
+2020-04-14T11:04:51 INFO Open report
+2020-04-14T11:04:54 INFO Open Selenium session
+2020-04-14T11:05:11 INFO Close Selenium session
+2020-04-14T11:05:12 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:5:11.png
+2020-04-14T11:05:12 INFO Get screenshotDescription_LinkedLogin_01_11:5:11.png
+2020-04-14T11:05:12 INFO test failed
+2020-04-14T11:05:13 INFO Close report
+2020-04-14T11:08:34 INFO Open report
+2020-04-14T11:08:37 INFO Open Selenium session
+2020-04-14T11:08:56 INFO Close Selenium session
+2020-04-14T11:08:56 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:8:56.png
+2020-04-14T11:08:56 INFO Get screenshotDescription_LinkedLogin_01_11:8:56.png
+2020-04-14T11:08:56 INFO test failed
+2020-04-14T11:08:57 INFO Close report
+2020-04-14T11:09:53 INFO Open report
+2020-04-14T11:10:05 INFO Open Selenium session
+2020-04-14T11:10:35 INFO Close Selenium session
+2020-04-14T11:10:36 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:10:35.png
+2020-04-14T11:10:36 INFO Get screenshotDescription_LinkedLogin_01_11:10:35.png
+2020-04-14T11:10:36 INFO test failed
+2020-04-14T11:10:37 INFO Close report
+2020-04-14T11:12:05 INFO Open report
+2020-04-14T11:12:08 INFO Open Selenium session
+2020-04-14T11:12:30 INFO Close Selenium session
+2020-04-14T11:12:30 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:12:30.png
+2020-04-14T11:12:30 INFO Get screenshotDescription_LinkedLogin_01_11:12:30.png
+2020-04-14T11:12:30 INFO test failed
+2020-04-14T11:12:31 INFO Close report
+2020-04-14T11:16:02 INFO Open report
+2020-04-14T11:16:04 INFO Open Selenium session
+2020-04-14T11:16:26 INFO Close Selenium session
+2020-04-14T11:16:26 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:16:26.png
+2020-04-14T11:16:26 INFO Get screenshotDescription_LinkedLogin_01_11:16:26.png
+2020-04-14T11:16:26 INFO test failed
+2020-04-14T11:16:27 INFO Close report
+2020-04-14T11:18:15 INFO Open report
+2020-04-14T11:18:20 INFO Open Selenium session
+2020-04-14T11:18:53 INFO Close Selenium session
+2020-04-14T11:18:54 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:18:53.png
+2020-04-14T11:18:54 INFO Get screenshotDescription_LinkedLogin_01_11:18:53.png
+2020-04-14T11:18:54 INFO test failed
+2020-04-14T11:18:55 INFO Close report
+2020-04-14T11:22:18 INFO Open report
+2020-04-14T11:22:24 INFO Open Selenium session
+2020-04-14T11:23:01 INFO Close Selenium session
+2020-04-14T11:23:01 INFO test succeeded
+2020-04-14T11:23:02 INFO Close report
+2020-04-14T11:24:12 INFO Open report
+2020-04-14T11:24:26 INFO Open Selenium session
+2020-04-14T11:25:03 INFO Close Selenium session
+2020-04-14T11:25:03 INFO test succeeded
+2020-04-14T11:25:04 INFO Close report
+2020-04-14T11:35:52 INFO Open report
+2020-04-14T11:36:05 INFO Open Selenium session
+2020-04-14T11:36:43 INFO Close Selenium session
+2020-04-14T11:36:44 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:36:43.png
+2020-04-14T11:36:44 INFO Get screenshotDescription_LinkedLogin_01_11:36:43.png
+2020-04-14T11:36:44 INFO test failed
+2020-04-14T11:36:45 INFO Close report
+2020-04-14T11:39:23 INFO Open report
+2020-04-14T11:39:35 INFO Open Selenium session
+2020-04-14T11:40:13 INFO Close Selenium session
+2020-04-14T11:40:13 INFO test succeeded
+2020-04-14T11:40:14 INFO Close report
+2020-04-14T11:56:56 INFO Open report
+2020-04-14T11:56:58 INFO Open Selenium session
+2020-04-14T11:57:24 INFO Close Selenium session
+2020-04-14T11:57:24 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_11:57:24.png
+2020-04-14T11:57:24 INFO Get screenshotDescription_LinkedLogin_01_11:57:24.png
+2020-04-14T11:57:25 INFO test failed
+2020-04-14T11:57:26 INFO Close report
+2020-04-14T11:59:32 INFO Open report
+2020-04-14T11:59:38 INFO Open Selenium session
+2020-04-14T12:00:12 INFO Close Selenium session
+2020-04-14T12:00:15 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_12:0:12.png
+2020-04-14T12:00:15 INFO Get screenshotDescription_LinkedLogin_01_12:0:12.png
+2020-04-14T12:00:15 INFO test failed
+2020-04-14T12:00:17 INFO Close report
+2020-04-14T12:06:11 INFO Open report
+2020-04-14T12:06:15 INFO Open Selenium session
+2020-04-14T12:06:41 INFO Close Selenium session
+2020-04-14T12:06:41 INFO test succeeded
+2020-04-14T12:06:43 INFO Close report
+2020-04-14T12:13:24 INFO Open report
+2020-04-14T12:13:31 INFO Open Selenium session
+2020-04-14T12:14:14 INFO Close Selenium session
+2020-04-14T12:14:14 INFO test succeeded
+2020-04-14T12:14:18 INFO Close report
+2020-04-14T12:16:38 INFO Open report
+2020-04-14T12:16:46 INFO Open Selenium session
+2020-04-14T12:17:39 INFO Close Selenium session
+2020-04-14T12:17:40 INFO test succeeded
+2020-04-14T12:17:42 INFO Close report
+2020-04-14T12:18:34 INFO Open report
+2020-04-14T12:19:15 INFO Open Selenium session
+2020-04-14T12:20:44 INFO Close Selenium session
+2020-04-14T12:20:44 INFO test succeeded
+2020-04-14T12:20:47 INFO Close report
+2020-04-14T12:23:24 INFO Open report
+2020-04-14T12:23:30 INFO Open Selenium session
+2020-04-14T12:24:14 INFO Close Selenium session
+2020-04-14T12:24:14 INFO test succeeded
+2020-04-14T12:24:16 INFO Close report
+2020-04-14T12:39:02 INFO Open report
+2020-04-14T12:39:12 INFO Open Selenium session
+2020-04-14T12:40:03 INFO Close Selenium session
+2020-04-14T12:40:03 INFO test succeeded
+2020-04-14T12:40:06 INFO Close report
+2020-04-14T12:41:22 INFO Open report
+2020-04-14T12:43:22 INFO Close Selenium session
+2020-04-14T12:43:22 INFO Screenshot for class={} method={} saved in: {}Description LinkedLogin_01 /home/darek/IdeaProjects/jobseeker/target/screenshots/Description_LinkedLogin_01_12:43:22.png
+2020-04-14T12:43:22 INFO Get screenshotDescription_LinkedLogin_01_12:43:22.png
+2020-04-14T12:43:22 INFO Close report
