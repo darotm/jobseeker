@@ -16,7 +16,7 @@ public class Past24Hours {
         Metalloid.initializePage(this);
     }
 
-    @FindBy(css = ".job-card-search__title")
+    @FindBy(css = ".artdeco-entity-lockup")
     private List<WebElement> results;
 
     @FindBy(css = "button[name='filter_pill_apply']")

@@ -3,14 +3,14 @@ package tests;
 import categories.Dev;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import pagefactory.linkedin.actions.Actions;
+import pagefactory.Base;
 
-public class HomePageTest extends Actions {
-    @Test
+public class HomePageTest extends Base {
+    //@Test
     @Category(Dev.class)
     public void LinkedLogin_01() {
         createTest("LinkedLogin_01", "Home Page - logged successfully");
-        Actions
+        Base
                 .mainPage()
                 .openUrl()
                 .signIn()
@@ -23,12 +23,11 @@ public class HomePageTest extends Actions {
        // assertEquals(message, "Email and Password do not match!");
     }
 
-    //Test
+    @Test
     @Category(Dev.class)
     public void LinkedLogin_02() {
-        createTest("LinkedLogin_02", "Home Page - logged successfully");
-        Actions.mainPage().openUrl().signIn().loginAsUser().jobs().search("tester").location("Warszawa").submit().selectAlert("tester");
-        // assertEquals(message, "Email and Password do not match!");
+        createTest("Search tester opportunities", "Location in Warsaw");
+        Base.mainPage().openUrl().search("tester").location("Warszawa").submit();
     }
 
 }

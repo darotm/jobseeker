@@ -5,10 +5,9 @@ import com.github.metalloid.pagefactory.FindBy;
 import com.github.metalloid.webdriver.utils.Inject;
 import com.github.metalloid.webdriver.utils.JavaScript;
 import com.github.metalloid.webdriver.utils.Wait;
+import metalloid.controls.KeyboardKeys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
-import java.util.List;
 
 public class Tester {
     @Inject
@@ -24,9 +23,6 @@ public class Tester {
     @FindBy(css = "form[aria-label='Filter results by: Date Posted']")
     private WebElement datePosted;
 
-    @FindBy(className = "search-s-facet-value__name t-14 t-black--light t-normal")
-    private List<WebElement> results;
-
     @FindBy(css = "button[data-control-name='filter_pill_apply']")
     private WebElement apply;
 
@@ -35,6 +31,12 @@ public class Tester {
 
     @FindBy(css = "label[for='f_TPR-r604800']")
     private WebElement pastWeek;
+
+    @FindBy(className = "compactfooter-help")
+    private WebElement helpCenter;
+
+    @FindBy(className = "jobs-search-results jobs-search-results--is-two-pane")
+    private WebElement results;
 
     private void datePosted() {
         wait.until(ExpectedConditions.visibilityOf(datePosted));
@@ -55,8 +57,8 @@ public class Tester {
 
     public Past24Hours datePostedApply() {
         apply.click();
-        wait.sleep(5);
-        javaScript.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        wait.sleep(6);
+        KeyboardKeys.arrowDownAndUp(35, 35);
         return new Past24Hours();
     }
 }

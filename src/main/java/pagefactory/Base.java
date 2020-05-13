@@ -1,10 +1,10 @@
-package pagefactory.linkedin.actions;
+package pagefactory;
 
 
 import pagefactory.linkedin.homepage.HomePage;
 import selenium.Core;
 
-public class Actions extends Core {
+public class Base extends Core {
     public static HomePage mainPage() {
         return new HomePage();
     }

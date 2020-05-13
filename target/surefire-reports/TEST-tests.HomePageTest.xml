@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.HomePageTest" time="119.638" tests="2" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.HomePageTest" time="15.303" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -8,7 +8,7 @@
     <property name="webdriver.chrome.driver" value="/home/darek/IdeaProjects/jobseeker/src/main/resources/drivers/chrome/chromedriver"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/darek/IdeaProjects/jobseeker/target/test-classes:/home/darek/IdeaProjects/jobseeker/target/classes:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-core/2.0.0.1/metalloid-core-2.0.0.1.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-expected-conditions/2.0.0/metalloid-expected-conditions-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-utils/2.0.0/metalloid-utils-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-page-factory/2.0.0/metalloid-page-factory-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/debug/1.0.7/debug-1.0.7.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webdriver-pool/2.0.0.1/metalloid-webdriver-pool-2.0.0.1.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/darek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/darek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/darek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/darek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/darek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/darek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/darek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/darek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/darek/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/darek/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/darek/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/darek/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/darek/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/home/darek/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/darek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/darek/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/darek/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/darek/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/darek/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="java.class.path" value="/home/darek/IdeaProjects/jobseeker/target/test-classes:/home/darek/IdeaProjects/jobseeker/target/classes:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-core/2.1.0/metalloid-core-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-expected-conditions/2.1.0/metalloid-expected-conditions-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-utils/2.1.0/metalloid-utils-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-page-factory/2.1.0/metalloid-page-factory-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webelement-name/2.0/metalloid-webelement-name-2.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/debug/1.0.7/debug-1.0.7.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webdriver-pool/2.0.0.2/metalloid-webdriver-pool-2.0.0.2.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/darek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/darek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/darek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/darek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/darek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/darek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/darek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/darek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/darek/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/darek/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/darek/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/darek/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/darek/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/home/darek/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/darek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/darek/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/darek/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/darek/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/darek/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/darek/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/darek/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/darek/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/home/darek/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/home/darek/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/home/darek/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/darek/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/home/darek/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/home/darek/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/home/darek/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="password" value="DaroTm1986`"/>
@@ -19,14 +19,14 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/darek/IdeaProjects/jobseeker/target/surefire/surefirebooter12257499236939404692.jar /home/darek/IdeaProjects/jobseeker/target/surefire 2020-04-14T12-41-09_192-jvmRun1 surefire14120122547044744289tmp surefire_013414903689873376962tmp"/>
+    <property name="sun.java.command" value="/home/darek/IdeaProjects/jobseeker/target/surefire/surefirebooter9899089602092203482.jar /home/darek/IdeaProjects/jobseeker/target/surefire 2020-05-13T21-10-41_899-jvmRun1 surefire13689853307238369227tmp surefire_015885890997894119527tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/darek/IdeaProjects/jobseeker/target/test-classes:/home/darek/IdeaProjects/jobseeker/target/classes:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-core/2.0.0.1/metalloid-core-2.0.0.1.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-expected-conditions/2.0.0/metalloid-expected-conditions-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-utils/2.0.0/metalloid-utils-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-page-factory/2.0.0/metalloid-page-factory-2.0.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/debug/1.0.7/debug-1.0.7.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webdriver-pool/2.0.0.1/metalloid-webdriver-pool-2.0.0.1.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/darek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/darek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/darek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/darek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/darek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/darek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/darek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/darek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/darek/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/darek/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/darek/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/darek/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/darek/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/home/darek/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/darek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/darek/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/darek/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/darek/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/darek/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:"/>
+    <property name="surefire.test.class.path" value="/home/darek/IdeaProjects/jobseeker/target/test-classes:/home/darek/IdeaProjects/jobseeker/target/classes:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-core/2.1.0/metalloid-core-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-expected-conditions/2.1.0/metalloid-expected-conditions-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-utils/2.1.0/metalloid-utils-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-page-factory/2.1.0/metalloid-page-factory-2.1.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webelement-name/2.0/metalloid-webelement-name-2.0.jar:/home/darek/.m2/repository/com/github/metalloid-project/debug/1.0.7/debug-1.0.7.jar:/home/darek/.m2/repository/com/github/metalloid-project/metalloid-webdriver-pool/2.0.0.2/metalloid-webdriver-pool-2.0.0.2.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/darek/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/darek/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/darek/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/darek/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/darek/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/darek/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/darek/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/darek/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/darek/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/darek/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/darek/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/darek/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/home/darek/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:/home/darek/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/home/darek/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/home/darek/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/darek/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/darek/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/darek/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/darek/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/darek/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/home/darek/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/darek/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/darek/.m2/repository/io/rest-assured/rest-assured/4.3.0/rest-assured-4.3.0.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy/3.0.2/groovy-3.0.2.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.2/groovy-xml-3.0.2.jar:/home/darek/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/home/darek/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/home/darek/.m2/repository/io/rest-assured/json-path/4.3.0/json-path-4.3.0.jar:/home/darek/.m2/repository/org/codehaus/groovy/groovy-json/3.0.2/groovy-json-3.0.2.jar:/home/darek/.m2/repository/io/rest-assured/rest-assured-common/4.3.0/rest-assured-common-4.3.0.jar:/home/darek/.m2/repository/io/rest-assured/xml-path/4.3.0/xml-path-4.3.0.jar:/home/darek/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/darek/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/home/darek/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/home/darek/.m2/repository/com/sun/xml/bind/jaxb-osgi/2.3.0.1/jaxb-osgi-2.3.0.1.jar:/home/darek/.m2/repository/org/apache/sling/org.apache.sling.javax.activation/0.1.0/org.apache.sling.javax.activation-0.1.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/darek"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.version.date" value="2020-04-14"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/home/darek/IdeaProjects/jobseeker"/>
@@ -36,12 +36,12 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/darek/IdeaProjects/jobseeker/target/surefire/surefirebooter12257499236939404692.jar"/>
+    <property name="surefire.real.class.path" value="/home/darek/IdeaProjects/jobseeker/target/surefire/surefirebooter9899089602092203482.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="java.runtime.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
     <property name="user.name" value="darek"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.3.0-46-generic"/>
+    <property name="os.version" value="5.3.0-51-generic"/>
     <property name="browser.name" value="firefox"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
@@ -49,7 +49,7 @@
     <property name="localRepository" value="/home/darek/.m2/repository"/>
     <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="11.0.6"/>
+    <property name="java.version" value="11.0.7"/>
     <property name="user.dir" value="/home/darek/IdeaProjects/jobseeker"/>
     <property name="os.arch" value="amd64"/>
     <property name="webdriver.gecko.driver" value="/home/darek/IdeaProjects/jobseeker/src/main/resources/drivers/firefox/geckodriver"/>
@@ -61,22 +61,40 @@
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vendor" value="Ubuntu"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.vm.version" value="11.0.6+10-post-Ubuntu-1ubuntu118.04.1"/>
+    <property name="java.vm.version" value="11.0.7+10-post-Ubuntu-2ubuntu218.04"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
     <property name="user" value="d.tulimowski@gmail.com	"/>
   </properties>
-  <testcase name="LinkedLogin_01" classname="tests.HomePageTest" time="119.638">
-    <error message="connection refused&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;darek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-46-generic&apos;, java.version: &apos;11.0.6&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="java.lang.IllegalStateException">java.lang.IllegalStateException: 
-connection refused
+  <testcase name="LinkedLogin_02" classname="tests.HomePageTest" time="15.303">
+    <error message="java.lang.reflect.InvocationTargetException&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;darek-desktop&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.3.0-51-generic&apos;, java.version: &apos;11.0.7&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.json.JsonException">org.openqa.selenium.json.JsonException: 
+java.lang.reflect.InvocationTargetException
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'darek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-46-generic', java.version: '11.0.6'
-Driver info: driver.version: FirefoxDriver
-remote stacktrace: 
-	at com.github.metalloid.webdriver.browsers.Browser.createLocalInstance(Browser.java:43)
-	at com.github.metalloid.webdriver.WebDriverFactory.createInstance(WebDriverFactory.java:32)
-	at com.github.metalloid.webdriver.WebDriverPool.get(WebDriverPool.java:70)
-	at selenium.Core.openSession(Core.java:20)
+System info: host: 'darek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-51-generic', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:608)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at metalloid.controls.KeyboardKeys.sendKeysToElement(KeyboardKeys.java:11)
+	at pagefactory.linkedin.homepage.HomePage.search(HomePage.java:67)
+	at tests.HomePageTest.LinkedLogin_02(HomePageTest.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,8 +102,8 @@ remote stacktrace:
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
-	at org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
 	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
@@ -101,141 +119,159 @@ remote stacktrace:
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'darek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-51-generic', java.version: '11.0.7'
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 34 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 46 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: form[id='JOBS'] input[aria-label='Search job titles or companies']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'darek-desktop', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-51-generic', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 76.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200507114007, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 3714, moz:profile: /tmp/rust_mozprofileaxDsDE, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.3.0-51-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c4a32ffd-5bd8-41f6-8148-33a938bf168d
+*** Element info: {Using=css selector, value=form[id='JOBS'] input[aria-label='Search job titles or companies']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy36.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 51 more
 </error>
-    <system-out><![CDATA[2020-04-14 12:41:17,501 pool-1-thread-2 DEBUG Apache Log4j Core 2.11.2 initializing configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml]
-2020-04-14 12:41:17,553 pool-1-thread-2 DEBUG Installed 1 script engine
+    <system-out><![CDATA[2020-05-13 21:10:44,431 pool-1-thread-2 DEBUG Apache Log4j Core 2.11.2 initializing configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml]
+2020-05-13 21:10:44,453 pool-1-thread-2 DEBUG Installed 1 script engine
 Warning: Nashorn engine is planned to be removed from a future JDK release
-2020-04-14 12:41:19,840 pool-1-thread-2 DEBUG Oracle Nashorn version: 11.0.6, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
-2020-04-14 12:41:19,841 pool-1-thread-2 DEBUG PluginManager 'Core' found 117 plugins
-2020-04-14 12:41:19,850 pool-1-thread-2 DEBUG PluginManager 'Level' found 0 plugins
-2020-04-14 12:41:19,938 pool-1-thread-2 DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
-2020-04-14 12:41:20,022 pool-1-thread-2 DEBUG PluginManager 'TypeConverter' found 26 plugins
-2020-04-14 12:41:20,081 pool-1-thread-2 DEBUG createProperty(name="LOG_PATTERN", value="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n")
-2020-04-14 12:41:20,083 pool-1-thread-2 DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
-2020-04-14 12:41:20,085 pool-1-thread-2 DEBUG createProperty(name="APP_LOG_ROOT", value="logs")
-2020-04-14 12:41:20,086 pool-1-thread-2 DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
-2020-04-14 12:41:20,131 pool-1-thread-2 DEBUG configureSubstitutor(={LOG_PATTERN=%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n, APP_LOG_ROOT=logs}, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
-2020-04-14 12:41:20,136 pool-1-thread-2 DEBUG PluginManager 'Lookup' found 13 plugins
-2020-04-14 12:41:20,140 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2020-04-14 12:41:20,188 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2020-04-14 12:41:20,215 pool-1-thread-2 DEBUG PluginManager 'Converter' found 44 plugins
-2020-04-14 12:41:20,272 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
-2020-04-14 12:41:20,402 pool-1-thread-2 DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="true", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="Console", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Filter=null, ={})
-2020-04-14 12:41:20,417 pool-1-thread-2 DEBUG Starting OutputStreamManager SYSTEM_OUT.true.false
-2020-04-14 12:41:20,419 pool-1-thread-2 DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.LevelRangeFilter].
-2020-04-14 12:41:20,425 pool-1-thread-2 DEBUG createFilter(minLevel="INFO", maxLevel="DEBUG", onMatch="ACCEPT", onMismatch="DENY")
-2020-04-14 12:41:20,432 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2020-04-14 12:41:20,436 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2020-04-14 12:41:20,437 pool-1-thread-2 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
-2020-04-14 12:41:20,450 pool-1-thread-2 DEBUG createPolicy(size="19500KB")
-2020-04-14 12:41:20,464 pool-1-thread-2 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
-2020-04-14 12:41:20,469 pool-1-thread-2 DEBUG createPolicy(={SizeBasedTriggeringPolicy(size=19968000)})
-2020-04-14 12:41:20,470 pool-1-thread-2 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
-2020-04-14 12:41:20,503 pool-1-thread-2 DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
-2020-04-14 12:41:20,508 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
-2020-04-14 12:41:20,582 pool-1-thread-2 DEBUG RollingFileAppender$Builder(fileName="logs/app-debug.log", filePattern="logs/app-debug-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="debugLog", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), LevelRangeFilter(INFO), ={})
-2020-04-14 12:41:20,611 pool-1-thread-2 DEBUG Returning file creation time for /home/darek/IdeaProjects/jobseeker/logs/app-debug.log
-2020-04-14 12:41:20,621 pool-1-thread-2 DEBUG Starting RollingFileManager logs/app-debug.log
-2020-04-14 12:41:20,647 pool-1-thread-2 DEBUG PluginManager 'FileConverter' found 2 plugins
-2020-04-14 12:41:20,653 pool-1-thread-2 DEBUG Setting prev file time to 2020-04-03T15:49:20.378+0200
-2020-04-14 12:41:20,662 pool-1-thread-2 DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])
-2020-04-14 12:41:20,663 pool-1-thread-2 DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=19968000)
-2020-04-14 12:41:20,669 pool-1-thread-2 DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.LevelRangeFilter].
-2020-04-14 12:41:20,672 pool-1-thread-2 DEBUG createFilter(minLevel="INFO", maxLevel="INFO", onMatch="ACCEPT", onMismatch="DENY")
-2020-04-14 12:41:20,687 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
-2020-04-14 12:41:20,690 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
-2020-04-14 12:41:20,691 pool-1-thread-2 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
-2020-04-14 12:41:20,703 pool-1-thread-2 DEBUG createPolicy(size="19500KB")
-2020-04-14 12:41:20,704 pool-1-thread-2 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
-2020-04-14 12:41:20,705 pool-1-thread-2 DEBUG createPolicy(={SizeBasedTriggeringPolicy(size=19968000)})
-2020-04-14 12:41:20,707 pool-1-thread-2 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
-2020-04-14 12:41:20,718 pool-1-thread-2 DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
-2020-04-14 12:41:20,719 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
-2020-04-14 12:41:20,722 pool-1-thread-2 DEBUG RollingFileAppender$Builder(fileName="logs/app-info.log", filePattern="logs/app-info-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="infoLog", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), LevelRangeFilter(INFO), ={})
-2020-04-14 12:41:20,724 pool-1-thread-2 DEBUG Returning file creation time for /home/darek/IdeaProjects/jobseeker/logs/app-info.log
-2020-04-14 12:41:20,729 pool-1-thread-2 DEBUG Starting RollingFileManager logs/app-info.log
-2020-04-14 12:41:20,730 pool-1-thread-2 DEBUG PluginManager 'FileConverter' found 2 plugins
-2020-04-14 12:41:20,735 pool-1-thread-2 DEBUG Setting prev file time to 2020-04-14T12:40:06.403+0200
-2020-04-14 12:41:20,737 pool-1-thread-2 DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])
-2020-04-14 12:41:20,738 pool-1-thread-2 DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=19968000)
-2020-04-14 12:41:20,747 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.SmtpAppender].
-2020-04-14 12:41:20,820 pool-1-thread-2 DEBUG createAppender(Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), name="MailAppender", to="metalloidproject@gmail.com", cc="null", bcc="null", from="dtulimowski@protonmail.com", replyTo="null", subject="Selenium report", smtpProtocol="smtps", smtpHost="smtp.gmail.com", smtpPort="465", smtpUsername="metalloidproject@gmail.com", smtpPassword="846c8e26c05119a10789912378cfefd0", smtpDebug="true", bufferSize="4", Layout=null, Filter=null, ignoreExceptions="false")
+2020-05-13 21:10:45,239 pool-1-thread-2 DEBUG Oracle Nashorn version: 11.0.7, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2020-05-13 21:10:45,240 pool-1-thread-2 DEBUG PluginManager 'Core' found 117 plugins
+2020-05-13 21:10:45,241 pool-1-thread-2 DEBUG PluginManager 'Level' found 0 plugins
+2020-05-13 21:10:45,254 pool-1-thread-2 DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2020-05-13 21:10:45,279 pool-1-thread-2 DEBUG PluginManager 'TypeConverter' found 26 plugins
+2020-05-13 21:10:45,314 pool-1-thread-2 DEBUG createProperty(name="LOG_PATTERN", value="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n")
+2020-05-13 21:10:45,316 pool-1-thread-2 DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2020-05-13 21:10:45,319 pool-1-thread-2 DEBUG createProperty(name="APP_LOG_ROOT", value="logs")
+2020-05-13 21:10:45,320 pool-1-thread-2 DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2020-05-13 21:10:45,335 pool-1-thread-2 DEBUG configureSubstitutor(={LOG_PATTERN=%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n, APP_LOG_ROOT=logs}, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
+2020-05-13 21:10:45,337 pool-1-thread-2 DEBUG PluginManager 'Lookup' found 13 plugins
+2020-05-13 21:10:45,341 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2020-05-13 21:10:45,356 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2020-05-13 21:10:45,358 pool-1-thread-2 DEBUG PluginManager 'Converter' found 44 plugins
+2020-05-13 21:10:45,391 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2020-05-13 21:10:45,420 pool-1-thread-2 DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="true", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="Console", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Filter=null, ={})
+2020-05-13 21:10:45,427 pool-1-thread-2 DEBUG Starting OutputStreamManager SYSTEM_OUT.true.false
+2020-05-13 21:10:45,432 pool-1-thread-2 DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.LevelRangeFilter].
+2020-05-13 21:10:45,440 pool-1-thread-2 DEBUG createFilter(minLevel="INFO", maxLevel="DEBUG", onMatch="ACCEPT", onMismatch="DENY")
+2020-05-13 21:10:45,441 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2020-05-13 21:10:45,445 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2020-05-13 21:10:45,449 pool-1-thread-2 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2020-05-13 21:10:45,455 pool-1-thread-2 DEBUG createPolicy(size="19500KB")
+2020-05-13 21:10:45,461 pool-1-thread-2 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2020-05-13 21:10:45,463 pool-1-thread-2 DEBUG createPolicy(={SizeBasedTriggeringPolicy(size=19968000)})
+2020-05-13 21:10:45,465 pool-1-thread-2 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2020-05-13 21:10:45,476 pool-1-thread-2 DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
+2020-05-13 21:10:45,483 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2020-05-13 21:10:45,499 pool-1-thread-2 DEBUG RollingFileAppender$Builder(fileName="logs/app-debug.log", filePattern="logs/app-debug-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="debugLog", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), LevelRangeFilter(INFO), ={})
+2020-05-13 21:10:45,510 pool-1-thread-2 DEBUG Returning file creation time for /home/darek/IdeaProjects/jobseeker/logs/app-debug.log
+2020-05-13 21:10:45,512 pool-1-thread-2 DEBUG Starting RollingFileManager logs/app-debug.log
+2020-05-13 21:10:45,516 pool-1-thread-2 DEBUG PluginManager 'FileConverter' found 2 plugins
+2020-05-13 21:10:45,529 pool-1-thread-2 DEBUG Setting prev file time to 2020-04-03T15:49:20.378+0200
+2020-05-13 21:10:45,537 pool-1-thread-2 DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])
+2020-05-13 21:10:45,541 pool-1-thread-2 DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=19968000)
+2020-05-13 21:10:45,542 pool-1-thread-2 DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.LevelRangeFilter].
+2020-05-13 21:10:45,552 pool-1-thread-2 DEBUG createFilter(minLevel="INFO", maxLevel="INFO", onMatch="ACCEPT", onMismatch="DENY")
+2020-05-13 21:10:45,554 pool-1-thread-2 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2020-05-13 21:10:45,557 pool-1-thread-2 DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n", PatternSelector=null, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2020-05-13 21:10:45,558 pool-1-thread-2 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2020-05-13 21:10:45,559 pool-1-thread-2 DEBUG createPolicy(size="19500KB")
+2020-05-13 21:10:45,561 pool-1-thread-2 DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2020-05-13 21:10:45,562 pool-1-thread-2 DEBUG createPolicy(={SizeBasedTriggeringPolicy(size=19968000)})
+2020-05-13 21:10:45,563 pool-1-thread-2 DEBUG Building Plugin[name=DefaultRolloverStrategy, class=org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy].
+2020-05-13 21:10:45,564 pool-1-thread-2 DEBUG DefaultRolloverStrategy$Builder(max="10", min="null", fileIndex="null", compressionLevel="null", ={}, stopCustomActionsOnError="null", tempCompressedFilePattern="null", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml))
+2020-05-13 21:10:45,565 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2020-05-13 21:10:45,569 pool-1-thread-2 DEBUG RollingFileAppender$Builder(fileName="logs/app-info.log", filePattern="logs/app-info-%d{yyyy-MM-dd}-%i.log", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])), DefaultRolloverStrategy(DefaultRolloverStrategy(min=1, max=10, useMax=true)), advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd'T'HH:mm:ss} %p %m%n), name="infoLog", Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), LevelRangeFilter(INFO), ={})
+2020-05-13 21:10:45,571 pool-1-thread-2 DEBUG Returning file creation time for /home/darek/IdeaProjects/jobseeker/logs/app-info.log
+2020-05-13 21:10:45,572 pool-1-thread-2 DEBUG Starting RollingFileManager logs/app-info.log
+2020-05-13 21:10:45,573 pool-1-thread-2 DEBUG PluginManager 'FileConverter' found 2 plugins
+2020-05-13 21:10:45,576 pool-1-thread-2 DEBUG Setting prev file time to 2020-05-13T21:10:12.681+0200
+2020-05-13 21:10:45,577 pool-1-thread-2 DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[SizeBasedTriggeringPolicy(size=19968000)])
+2020-05-13 21:10:45,578 pool-1-thread-2 DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=19968000)
+2020-05-13 21:10:45,579 pool-1-thread-2 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.SmtpAppender].
+2020-05-13 21:10:45,606 pool-1-thread-2 DEBUG createAppender(Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), name="MailAppender", to="metalloidproject@gmail.com", cc="null", bcc="null", from="dtulimowski@protonmail.com", replyTo="null", subject="Selenium report", smtpProtocol="smtps", smtpHost="smtp.gmail.com", smtpPort="465", smtpUsername="metalloidproject@gmail.com", smtpPassword="846c8e26c05119a10789912378cfefd0", smtpDebug="true", bufferSize="4", Layout=null, Filter=null, ignoreExceptions="false")
 DEBUG: setDebug: JavaMail version 1.6.2
-2020-04-14 12:41:21,220 pool-1-thread-2 DEBUG Starting SmtpManager SMTP:bc239a4b0fdb4f0e7b4a91fab218056a
-2020-04-14 12:41:21,255 pool-1-thread-2 DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
-2020-04-14 12:41:21,268 pool-1-thread-2 DEBUG createAppenders(={Console, debugLog, infoLog, MailAppender})
-2020-04-14 12:41:21,271 pool-1-thread-2 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2020-04-14 12:41:21,286 pool-1-thread-2 DEBUG createAppenderRef(ref="MailAppender", level="null", Filter=null)
-2020-04-14 12:41:21,290 pool-1-thread-2 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
-2020-04-14 12:41:21,302 pool-1-thread-2 DEBUG createAppenderRef(ref="infoLog", level="null", Filter=null)
-2020-04-14 12:41:21,302 pool-1-thread-2 DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
-2020-04-14 12:41:21,338 pool-1-thread-2 DEBUG createLogger(additivity="null", level="ALL", includeLocation="null", ={MailAppender, infoLog}, ={}, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Filter=null)
-2020-04-14 12:41:21,356 pool-1-thread-2 DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
-2020-04-14 12:41:21,363 pool-1-thread-2 DEBUG createLoggers(={root})
-2020-04-14 12:41:21,386 pool-1-thread-2 DEBUG Configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml] initialized
-2020-04-14 12:41:21,391 pool-1-thread-2 DEBUG Starting configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml]
-2020-04-14 12:41:21,396 pool-1-thread-2 DEBUG Log4j2 ConfigurationScheduler starting 1 threads
-2020-04-14 12:41:21,415 pool-1-thread-2 DEBUG Started configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml] OK.
-2020-04-14 12:41:21,466 pool-1-thread-2 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
-2020-04-14 12:41:21,468 pool-1-thread-2 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
-2020-04-14 12:41:21,474 pool-1-thread-2 DEBUG Appender DefaultConsole-1 stopped with status true
-2020-04-14 12:41:21,503 pool-1-thread-2 DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@71a0e1f8 OK
-2020-04-14 12:41:22,270 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057
-2020-04-14 12:41:22,285 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=StatusLogger
-2020-04-14 12:41:22,290 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=ContextSelector
-2020-04-14 12:41:22,299 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Loggers,name=
-2020-04-14 12:41:22,305 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=Console
-2020-04-14 12:41:22,314 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=infoLog
-2020-04-14 12:41:22,318 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=MailAppender
-2020-04-14 12:41:22,320 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=debugLog
-2020-04-14 12:41:22,334 pool-1-thread-2 DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
-2020-04-14 12:41:22,336 pool-1-thread-2 DEBUG Reconfiguration complete for context[name=55054057] at URI /home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6c4acbd3) with optional ClassLoader: null
-2020-04-14 12:41:22,340 pool-1-thread-2 DEBUG Shutdown hook enabled. Registering a new one.
-2020-04-14 12:41:22,354 pool-1-thread-2 DEBUG LoggerContext[name=55054057, org.apache.logging.log4j.core.LoggerContext@6c4acbd3] started OK.
+2020-05-13 21:10:45,678 pool-1-thread-2 DEBUG Starting SmtpManager SMTP:bc239a4b0fdb4f0e7b4a91fab218056a
+2020-05-13 21:10:45,683 pool-1-thread-2 DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2020-05-13 21:10:45,685 pool-1-thread-2 DEBUG createAppenders(={Console, debugLog, infoLog, MailAppender})
+2020-05-13 21:10:45,690 pool-1-thread-2 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2020-05-13 21:10:45,697 pool-1-thread-2 DEBUG createAppenderRef(ref="MailAppender", level="null", Filter=null)
+2020-05-13 21:10:45,703 pool-1-thread-2 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2020-05-13 21:10:45,713 pool-1-thread-2 DEBUG createAppenderRef(ref="infoLog", level="null", Filter=null)
+2020-05-13 21:10:45,716 pool-1-thread-2 DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2020-05-13 21:10:45,720 pool-1-thread-2 DEBUG createLogger(additivity="null", level="ALL", includeLocation="null", ={MailAppender, infoLog}, ={}, Configuration(/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml), Filter=null)
+2020-05-13 21:10:45,725 pool-1-thread-2 DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2020-05-13 21:10:45,727 pool-1-thread-2 DEBUG createLoggers(={root})
+2020-05-13 21:10:45,728 pool-1-thread-2 DEBUG Configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml] initialized
+2020-05-13 21:10:45,729 pool-1-thread-2 DEBUG Starting configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml]
+2020-05-13 21:10:45,732 pool-1-thread-2 DEBUG Log4j2 ConfigurationScheduler starting 1 threads
+2020-05-13 21:10:45,734 pool-1-thread-2 DEBUG Started configuration XmlConfiguration[location=/home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml] OK.
+2020-05-13 21:10:45,736 pool-1-thread-2 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2020-05-13 21:10:45,737 pool-1-thread-2 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2020-05-13 21:10:45,738 pool-1-thread-2 DEBUG Appender DefaultConsole-1 stopped with status true
+2020-05-13 21:10:45,740 pool-1-thread-2 DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@1ca5ef2f OK
+2020-05-13 21:10:45,898 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057
+2020-05-13 21:10:45,904 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=StatusLogger
+2020-05-13 21:10:45,907 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=ContextSelector
+2020-05-13 21:10:45,910 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Loggers,name=
+2020-05-13 21:10:45,914 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=Console
+2020-05-13 21:10:45,916 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=infoLog
+2020-05-13 21:10:45,917 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=MailAppender
+2020-05-13 21:10:45,918 pool-1-thread-2 DEBUG Registering MBean org.apache.logging.log4j2:type=55054057,component=Appenders,name=debugLog
+2020-05-13 21:10:45,923 pool-1-thread-2 DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2020-05-13 21:10:45,924 pool-1-thread-2 DEBUG Reconfiguration complete for context[name=55054057] at URI /home/darek/IdeaProjects/jobseeker/target/classes/log4j2.xml (org.apache.logging.log4j.core.LoggerContext@23a5ee65) with optional ClassLoader: null
+2020-05-13 21:10:45,925 pool-1-thread-2 DEBUG Shutdown hook enabled. Registering a new one.
+2020-05-13 21:10:45,928 pool-1-thread-2 DEBUG LoggerContext[name=55054057, org.apache.logging.log4j.core.LoggerContext@23a5ee65] started OK.
 Report saved on /openbeds/ReportFactory.html
+
+Cookies not loaded
+
+
+No searchBar found
+
 ]]></system-out>
-    <system-err><![CDATA[1586860888982	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewrcGB0"
-1586860894563	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1586860898005	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1586860898006	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1586860898007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1586860898007	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-Exiting due to channel error.
-[GFX1-]: Receive IPC close with reason=AbnormalShutdown
-Exiting due to channel error.
-Exiting due to channel error.
-1586860949752	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHwZ9DQ"
-1586860970233	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1586860981266	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1586860981267	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1586860981268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1586860981269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1586860997751	Marionette	INFO	Listening on port 36521
-1586860997847	Marionette	WARN	TLS certificate errors will be ignored for this session
-Apr 14, 2020 12:43:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[1589397047379	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaxDsDE"
+1589397048461	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589397049612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589397049612	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589397049613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589397049613	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589397054883	Marionette	INFO	Listening on port 35389
+1589397054928	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 13, 2020 9:10:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
-  </testcase>
-  <testcase name="LinkedLogin_01" classname="tests.HomePageTest" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at reports.TestReport.failTest(TestReport.java:25)
-	at selenium.Rules$1.failed(Rules.java:21)
-	at org.junit.rules.TestWatcher.failedQuietly(TestWatcher.java:90)
-	at org.junit.rules.TestWatcher.access$300(TestWatcher.java:52)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:68)
-	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:61)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305)
-	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:365)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:330)
-	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</error>
   </testcase>
 </testsuite>
