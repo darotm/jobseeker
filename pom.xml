@@ -64,7 +64,7 @@
         <surefire.version>3.0.0-M3</surefire.version>
         <junit.version>4.13-beta-3</junit.version>
         <junit.test>4.13-beta-3</junit.test>
-        <log4j.version>2.11.2</log4j.version>
+        <log4j.version>2.15.0</log4j.version>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.github.metalloid-project/metalloid-core -->
